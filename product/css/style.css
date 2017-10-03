@@ -445,7 +445,7 @@ float:left;
 
 .header{
 	background-color: rgba(0, 0, 0, 0.8);
-	height:45px;
+	height:60px;
 	border-bottom: 1px solid #dfa03b;
 	z-index: 99;
 	padding-top: 20px;
