@@ -184,6 +184,85 @@ $(document).ready(function () {
 				}, 1500);
 				
             }
+            else if (index == 6 && direction == 'down') {
+                $('.ani-k').addClass('fadeInUp');
+                $('.h-m-left-img-line').removeClass('h-m-line-height');
+                setTimeout(function(){
+                        $('.ani-k').removeClass('fadeInUp');
+                }, 2300);
+            }
+            else if (index == 8 && direction == 'up') {
+                $('.ani-k').addClass('fadeInUp');
+                $('.ht90-left-line').removeClass('ht90-left-line-height');
+                $('.h-t90-pro-img').removeClass('h-t90-pro-img-ani');
+                setTimeout(function(){
+                        $('.ani-k').removeClass('fadeInUp');
+                }, 2300);
+            }
+            else if (index == 7 && direction == 'down') {
+                $('.ani-90').addClass('fadeInUp');
+                $('.ht90-left-line').removeClass('ht90-left-line-height');
+                $('.h-t90-pro-img').removeClass('h-t90-pro-img-ani')
+                setTimeout(function(){
+                        $('.ht90-left-line').addClass('ht90-left-line-height');
+                }, 1500);
+                setTimeout(function(){
+                        $('.h-t90-pro-img').addClass('h-t90-pro-img-ani');
+                }, 1000);
+                setTimeout(function(){
+                        $('.ani-90').removeClass('fadeInUp');
+                }, 2300);
+                
+            }
+            else if (index == 9 && direction == 'up') {
+            	$('.ani-90').addClass('fadeInUp');
+            	$('.ani-22').addClass('fadeInUp');
+                $('.ani-22-down').addClass('fadeInDown');
+                setTimeout(function(){
+                        $('.ani-90').removeClass('fadeInUp');
+                }, 2300);
+                setTimeout(function(){
+                        $('.ht90-left-line').addClass('ht90-left-line-height');
+                }, 1500);
+                setTimeout(function(){
+                        $('.h-t90-pro-img').addClass('h-t90-pro-img-ani');
+                }, 1000);
+                
+            }
+            else if (index == 8 && direction == 'down') {
+                $('.ani-22').addClass('fadeInUp');
+                $('.ani-22-down').addClass('fadeInDown');
+                $('.h-t22-left-img-line').removeClass('h-t22-left-img-height');
+
+                setTimeout(function(){
+                        $('.h-t22-left-img-line').addClass('h-t22-left-img-height');
+                }, 1500);
+                setTimeout(function(){
+                        $('.ani-22').removeClass('fadeInUp');
+                }, 2300);
+                setTimeout(function(){
+                        $('.ani-22-down').removeClass('fadeInDown');
+                }, 3000);
+            }
+            else if (index == 10 && direction == 'up') {
+                $('.ani-22').addClass('fadeInUp');
+                $('.ani-22-down').addClass('fadeInDown');
+                setTimeout(function(){
+                        $('.ani-22-down').removeClass('fadeInDown');
+                }, 2300);
+                setTimeout(function(){
+                        $('ani-22').removeClass('fadeInUp');
+                }, 1500);
+                setTimeout(function(){
+                        $('.h-t22-left-img-line').addClass('h-t22-left-img-height');
+                }, 1000);
+                
+                $('.h-bz-sec1-blitz-text').removeClass('fadeInLeft');
+                $('.h-bz-sec1-goldstrip').removeClass('fadeInUp');
+                $('.h-bz-sec1-6img').removeClass('fadeInUp');
+                $('.h-bz-sec1-p').removeClass('h-bz-sec1-p-ani');
+            }
+			/*
 			else if (index == 6 && direction == 'down') {
                 $('.ani-k').addClass('fadeInUp');
 				$('.h-m-left-img-line').removeClass('h-m-line-height');
@@ -258,7 +337,7 @@ $(document).ready(function () {
 				$('.h-bz-sec1-6img').removeClass('fadeInUp');
 				$('.h-bz-sec1-p').removeClass('h-bz-sec1-p-ani');
             }
-			
+			*/
 			//////
 			else if (index == 9 && direction == 'down') {
                 $('.ht90-left-line').removeClass('ht90-left-line-height');
